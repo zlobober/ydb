@@ -14,7 +14,7 @@ SRCDIR(
 )
 
 IF (EXPORT_CMAKE)
-    RUN_PROGRAM(
+    RUN_PYTHON3(
         ${ARCADIA_ROOT}/ydb/library/yql/core/expr_nodes_gen/gen/__main__.py
             yql_expr_nodes_gen.jnj
             yql_yt_expr_nodes.json
