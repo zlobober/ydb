@@ -3,7 +3,7 @@
 #include <util/generic/strbuf.h>
 #include <util/generic/string.h>
 
-#include <contrib/libs/openssl/include/openssl/sha.h>
+#include <openssl/sha.h>
 
 #include <utility>
 #include <type_traits>
